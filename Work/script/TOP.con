@@ -1,0 +1,26 @@
+#ShanghaiTech University Yang, Hu
+#May not accurate
+
+current_design core
+
+# Reset all constraints 
+reset_design
+
+# Create clock object and set uncertainty, latency, transition
+create_clock -period 4 [get_ports clk]
+set_clock_latency  -source  -max  1.0  [get_clocks  clk]	
+set_clock_latency   -max   0.6   [get_clocks  clk]	
+set_clock_uncertainty 0.1 [get_clocks clk]	
+set_clock_transition -max 0.1 [get_clocks clk]	
+
+# Set constraints on input ports
+set_input_delay -max 0.6 -clock clk [all_inputs]
+
+# Set constraints on output ports
+set_output_delay -max 0.6 -clock clk [all_outputs]
+
+#Set Area
+set_max_area 0
+
+#Output load
+set_load 0.06 [all_outputs]

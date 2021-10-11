@@ -1,0 +1,79 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : core
+Version: O-2018.06-SP5-2
+Date   : Mon Jun 21 02:55:37 2021
+****************************************
+
+
+   min_delay/hold ('clk' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   w/wdata_reg[0]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[1]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[2]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[3]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[4]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[5]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[6]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[7]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[8]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[9]/D             0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[10]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[11]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[12]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[13]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[14]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[15]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[16]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[17]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[18]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[19]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[20]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[21]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[22]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[23]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[24]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   w/wdata_reg[25]/D            0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[0]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[1]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[2]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[3]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[4]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[5]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[6]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[7]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[8]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[9]/D         0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[10]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[11]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[12]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[13]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[14]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[15]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[16]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[17]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[18]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[19]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[20]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[21]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[22]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[23]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[24]/D        0.05           0.03 r        -0.03  (VIOLATED)
+   ifcap/Idata_reg[25]/D        0.05           0.03 r        -0.03  (VIOLATED)
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   core                         0.00       166454.64      -166454.64
+                                                                    (VIOLATED)
+
+
+1
